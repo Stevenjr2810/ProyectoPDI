@@ -1,0 +1,41 @@
+# Ignore archivos y carpetas generadas por Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Ignore configuraciones locales específicas del usuario
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Ignore archivos específicos de las plataformas
+*.apk
+*.unitypackage
+
+# Ignore datos de configuración de Visual Studio/JetBrains Rider
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore metadatos de sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Ignore carpetas de control de versiones de Unity Collab
+/[Aa]ssets/UnityCollaborate/
+
+# Archivos ocultos específicos de macOS y Linux
+._*
+*.swp
